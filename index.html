@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sorting Visualizer</title>
+</head>
+
+<body>
+  <header>
+    <h1>Sorting Visulizer</h1>
+    <nav>
+      <button type="button" id="newarray">New Array</button>
+      <span>
+        <label for="arraysize">Size</label>
+        <input type="range" id="arraysize" min="5" max="60" value="20">
+      </span>
+
+      <span>
+        <label for="speed">Speed</label>
+        <input type="range" id="speed" min="30" max="340" value="100">
+      </span>
+      <hr>
+      <div class="btn">
+        <button type="button" id="bubbleSort">Bubble Sort</button>
+        <button type="button" id="selectionSort">Selection Sort</button>
+        <button type="button" id="insertionSort">Insertion Sort</button>
+        <button type="button" id="quickSort">Quick Sort</button>
+        <button type="button" id="mergeSort">Merge Sort</button>
+      </div>
+    </nav>
+  </header>
+
+  <div id="bars" class="flex-container"></div>
+
+  <div id="sortout"></div>
+
+  <footer>
+    <p>Made by Md Nazar Ali || IT student at NiT</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
